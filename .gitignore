@@ -42,3 +42,8 @@ dist-ssr
 # Java crash logs
 hs_err_pid*
 replay_pid*
+# Maven / Backend
+target/
+application.properties
+!application.properties.example
+apache-maven-3.9.14/
