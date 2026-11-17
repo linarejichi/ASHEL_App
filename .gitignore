@@ -1,5 +1,6 @@
+
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -8,9 +9,9 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Node / React
-node_modules
-dist
-dist-ssr
+node_modules/
+dist/
+dist-ssr/
 *.local
 .env
 .env.*
@@ -29,9 +30,9 @@ dist-ssr
 *.rar
 
 # IDE / Editor
-.vscode/*
-!.vscode/extensions.json
-.idea
+.vscode/
+.idea/
+*.iml
 .DS_Store
 *.suo
 *.ntvs*
@@ -42,8 +43,14 @@ dist-ssr
 # Java crash logs
 hs_err_pid*
 replay_pid*
+
 # Maven / Backend
 target/
+apache-maven-3.9.14/
+
+# Configuration and secrets
 application.properties
 !application.properties.example
-apache-maven-3.9.14/
+
+# Windows
+desktop.ini
